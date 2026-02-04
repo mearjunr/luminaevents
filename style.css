@@ -436,21 +436,17 @@ ul {
     transition: transform 0.4s ease;
 }
 
-/* Placeholders for portfolio images using gradients */
+/* Portfolio production images */
 .p1 {
-    background-image: linear-gradient(to bottom right, #2c3e50, #3498db);
+    background-image: url('./images/production1.jpg');
 }
 
 .p2 {
-    background-image: linear-gradient(to bottom right, #232526, #414345);
-}
-
-.p3 {
-    background-image: linear-gradient(to bottom right, #cc2b5e, #753a88);
+    background-image: url('./images/production2.jpg');
 }
 
 .p4 {
-    background-image: linear-gradient(to bottom right, #1f4037, #99f2c8);
+    background-image: url('./images/production4.jpg');
 }
 
 .portfolio-item:hover {
